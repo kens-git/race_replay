@@ -31,10 +31,7 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['*', '.tsx', '.ts', '.jsx', '.js'],
-    alias: {
-      '@': path.resolve(__dirname, 'src'),
-    },
+    extensions: ['.tsx', '.ts', '.jsx', '.js'],
   },
   plugins: [new HtmlWebpackPlugin({ template: './public/index.html' })],
 };
