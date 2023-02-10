@@ -9,13 +9,17 @@ module.exports = {
         DEFAULT: '#E63946',
         light: '#F9939B',
       },
+      document: {
+        DEFAULT: '#F1F4F6',
+        dark: '#15212B',
+      },
       gray: {
         300: '#D1D9E1',
         500: '#8596A7',
       },
       section: {
-        DEFAULT: '#F1F4F6',
-        dark: '#15212B',
+        DEFAULT: '#FFFFFF',
+        dark: '#132535',
       },
       teal: {
         100: '#F1FAEE',
@@ -27,10 +31,12 @@ module.exports = {
         700: '#457B9D',
         // 800: '#',
         900: '#1D3557',
+        1000: '#15212B',
       },
       txt: {
         DEFAULT: '#000000',
         dark: '#FFFFFF',
+        teal: '#96D8D8', // TODO: move
       },
       viewport: {
         DEFAULT: '#FFFFFF',
